@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num;
+    cout<<"Introduzca un numero: ";
+    cin>>num;
+    cout<<"Numero incrementado en 5: "<<num+5<<endl;
+    return 0;
+}
