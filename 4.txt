@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int a, b, aux;
+
+   cout<<"Introduzca un primer valor: ";
+   cin>>a;
+
+   cout<<"Introduzca un segundo valor: ";
+   cin>>b;
+
+   aux=a;
+   a=b;
+   b=aux;
+   cout<<"\nvalor de a: "<<a<<endl;
+   cout<<"valor de b: "<<b;
+}
