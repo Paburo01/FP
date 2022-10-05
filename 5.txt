@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   float a;
+   float b;
+
+   cout<<"Introduzca un entero en bytes: ";
+   cin>>a;
+   b=a/1024;
+
+   cout<<"El valor "<<a<<" bytes en kbytes es: "<<b ;
+
+
+}
