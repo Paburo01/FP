@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float teoria;
+    float practica;
+    float notaFinal;
+
+    cout<<"Introduce nota de teoria"<<endl;
+    cin>>teoria;
+
+    cout<<"Introduce nota de practica"<<endl;
+    cin>>practica;
+
+    notaFinal=teoria*0.40 + practica*0.60;
+
+    cout<<"Nota Final: "<<notaFinal<<endl;
+
+    return 0;
+}
