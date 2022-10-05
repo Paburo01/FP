@@ -1,0 +1,15 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    int radio;
+    cout<<"Introduce radio: "<<endl;
+    cin>>radio;
+
+    cout<<"Longitud de la circunferencia "<< 2 *3.14* radio<<endl;
+    cout<<"superficie de la circunferencia "<< 3.14* pow(radio,2)<<endl;
+    cout<<"Longitud de la circunferencia "<<(4*3.14*pow(radio,3))/3 <<endl;
+
+}
